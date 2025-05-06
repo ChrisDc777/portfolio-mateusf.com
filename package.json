@@ -15,8 +15,7 @@
     "start": "next start",
     "lint": "next lint",
     "bump-tag": "tsx tools/bump-tag-version.ts",
-    "new": "tsx tools/new-content.ts",
-    "check-unused": "npx depcheck"
+    "new": "tsx tools/new-content.ts"
   },
   "dependencies": {
     "@giscus/react": "^3.0.0",
