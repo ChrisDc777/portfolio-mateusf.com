@@ -92,13 +92,6 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en" className="scroll-smooth">
-      <head>
-        <Script
-          async
-          src="https://analytics.mateusf.com/script.js"
-          data-website-id={process.env.UMAMI_WEBSITE_ID}
-        />
-      </head>
       <body
         className={`scroll-smooth ${inter.variable} ${dancingScript.variable} ${crimsonText.variable}`}
       >
